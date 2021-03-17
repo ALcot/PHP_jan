@@ -1,0 +1,66 @@
+body {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background: yellowgreen;
+  color: unset;
+}
+form {
+  font-size: 6vmin;
+  height: 100px;
+  margin-left: 50px;
+}
+input {
+  width: 4vmin;
+  height: 4vmin;
+  position: relative;
+  top: 2px;
+}
+/* button {
+  margin-top: 5vmin;
+  width: 25vmin;
+  height: 8vmin;
+  font-size: 5vmin;
+  color: #333;
+} */
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  color: #668ad8;
+  width: 120px;
+  height: 120px;
+  line-height: 120px;
+  border-radius: 50%;
+  border: double 4px #668ad8;
+  text-align: center;
+  overflow: hidden;
+  transition: 0.6s;
+  font-size: 16px;
+}
+
+.btn:hover {
+  -webkit-transform: rotateY(360deg);
+  transform: rotateY(360deg);
+}
+
+div {
+  display: flex;
+  width: 130%;
+  justify-content: space-around;
+}
+img {
+  width: 35vmin;
+  height: 35vmin;
+}
+p {
+  font-size: 7vmin;
+}
+
+.hyouzi {
+  display: flex;
+  justify-content: space-around;
+  height: 130px;
+}
